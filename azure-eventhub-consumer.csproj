@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <Version>5</Version>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>azure_eventhub_consumer</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Messaging.EventHubs" Version="5.7.1" />
+    <PackageReference Include="Azure.Messaging.EventHubs.Processor" Version="5.7.1" />
+  </ItemGroup>
+
+</Project>
