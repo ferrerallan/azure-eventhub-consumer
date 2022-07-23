@@ -9,9 +9,9 @@ async Task Main()
 {
     
     Console.ForegroundColor = ConsoleColor.Green;
-    string ehubNamespaceConnectionString = "Endpoint=sb://eh-allan.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=zOmvRiUoxoDgKXh5L2IAET/f2zaSjSqZ+kS2t4U8W3E=";
+    string ehubNamespaceConnectionString = "yourconnection";
     string eventHubName =  "allan-test";
-    string blobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=allantestsrg90e8;AccountKey=nRd5mi547fU+XcZSyVX3vIFr5L1BjMYyY27ngDG3p5Dkp5k92WyE4TlbM0AlL0UEu/+5g7ikICXF+AStvkn9xg==;EndpointSuffix=core.windows.net";
+    string blobStorageConnectionString = "yourconnection";
     string blobContainerName = "test-eh";
 
     // Read from the default consumer group: $Default
